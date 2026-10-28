@@ -1,0 +1,12 @@
+{
+  "name": "impactboards-extractor",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Public 80,000 Hours and AISafety.com job boards",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "scripts": {
+    "check:types": "tsc --noEmit"
+  }
+}

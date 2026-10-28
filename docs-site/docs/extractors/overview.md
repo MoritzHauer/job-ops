@@ -24,6 +24,7 @@ Extractor integrations are now registered through manifests and loaded automatic
 | [Seek](/docs/next/extractors/seek) | Australia/NZ job search via Apify | Requires Apify API token; actor runs incur cost ($1.50/1,000 results; free tier ~3,000/month) | `APIFY_TOKEN`, `SEEK_MAX_JOBS_PER_TERM`, `SEEK_APIFY_ACTOR_ID` | Calls the `unfenced-group/seek-com-au-scraper` Apify actor per term, maps results, and de-duplicates by source id / URL |
 | [FreeHire](/docs/next/extractors/freehire) | Broad job discovery through FreeHire's public agent API | No credentials required; API availability and rate limits are controlled by FreeHire | existing pipeline `searchTerms`, selected country/cities, `jobspyResultsWanted`, workplace type | Requests full Markdown descriptions and enriched job metadata, then de-duplicates original upstream URLs across sources |
 | [UKVisaJobs](/docs/next/extractors/ukvisajobs) | UK visa sponsorship-focused roles | Requires authenticated session and periodic token/cookie refresh | `UKVISAJOBS_EMAIL`, `UKVISAJOBS_PASSWORD`, `UKVISAJOBS_MAX_JOBS`, `UKVISAJOBS_SEARCH_KEYWORD` | API pagination + dataset output; orchestrator de-dupes and may fetch missing descriptions |
+| [80,000 Hours and AISafety.com](/docs/next/extractors/impact-job-boards) | Curated impact and AI safety careers | Public website interfaces; no credentials | Search terms, shared result budget, pipeline location preferences | Paginated Algolia search for 80,000 Hours; rendered AISafety.com summaries; canonical employer URLs |
 | [Manual Import](/docs/next/extractors/manual) | One-off jobs not covered by scrapers | Inference quality depends on model/provider and input quality; some URLs cannot be fetched reliably | App/API endpoints (`/api/manual-jobs/infer`, `/api/manual-jobs/import`) | Accepts text/HTML/URL, runs inference, then saves and scores job after review |
 
 ## Which extractor should I use?
@@ -67,5 +68,6 @@ Many runs combine sources: broad discovery first, then manual import for high-pr
 - [Seek](/docs/next/extractors/seek)
 - [FreeHire](/docs/next/extractors/freehire)
 - [UKVisaJobs](/docs/next/extractors/ukvisajobs)
+- [Impact Job Boards](/docs/next/extractors/impact-job-boards)
 - [Manual Import](/docs/next/extractors/manual)
 - [Add an Extractor](/docs/next/workflows/add-an-extractor)

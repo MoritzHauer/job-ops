@@ -89,6 +89,9 @@ services:
         - path: ./extractors/wazzuf
           target: /app/extractors/wazzuf
           action: sync+restart
+        - path: ./extractors/impactboards/src
+          target: /app/extractors/impactboards/src
+          action: sync+restart
         - path: ./extractors/freehire/src
           target: /app/extractors/freehire/src
           action: sync+restart

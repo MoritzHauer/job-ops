@@ -49,6 +49,8 @@ export function deriveExtractorLimits(args: {
     "jobindex",
     "seek",
     "naukri",
+    "eightyhours",
+    "aisafety",
   ] as const;
   const weightedContributors =
     perTermSources.filter((source) => args.sources.includes(source)).length *

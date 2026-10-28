@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Offensive Security Engineer",
+    "description_short": "<ul>\n<li>In this role, you'll conduct offensive security testing against AI evaluation infrastructure and build agent-assisted red-teaming tools to evaluate frontier AI safely.</li>\n<li>Attack evaluation sandboxes and test escape paths in containers and VMs.</li>\n<li>Build and operate agent-assisted red-teaming harnesses for continuous testing.</li>\n<li>Triage findings from agents, confirm vulnerabilities with exploits and run wider engagements.</li>\n<li>Collaborate with researchers on cyber ranges and publish your security work.</li>\n</ul>",
+    "posted_at": 1793145900,
+    "url_external": "https://job-boards.eu.greenhouse.io/aisi/jobs/5017631101?utm_source=80000hours&utm_medium=job-board",
+    "salary": "\u00a365,000 - \u00a3145,000",
+    "company_name": "UK Government, AI Security Institute",
+    "tags_role_type": ["Full-time"],
+    "tags_skill": ["Software engineering", "Information security"],
+    "card_locations": ["London, UK"],
+    "objectID": "21433"
+  },
+  {
+    "title": "Associate, Development and External Relations",
+    "description_short": "<ul>\n<li>In this role, you'll support ARI's development work across ARI, CRI, and ARI PAC by managing fundraising operations, databases, and compliance.</li>\n<li>Maintain fundraising databases with accurate data entry and records across all organizations.</li>\n<li>Support FEC and IRS compliance by maintaining donor documentation and flagging issues.</li>\n<li>Draft donor communications and coordinate logistics for fundraising events.</li>\n<li>Research prospective donors and develop prospect profiles for leadership.</li>\n<li>Track donor relationships and philanthropic trends to prepare fundraising reports.</li>\n</ul>",
+    "posted_at": 1793145882,
+    "url_external": "https://ari.us/careers/?gh_jid=4468356009&utm_source=80000hours&utm_medium=job-board",
+    "salary": "$90,000 - $110,000",
+    "company_name": "Americans for Responsible Innovation",
+    "tags_role_type": ["Full-time"],
+    "tags_skill": ["Operations"],
+    "card_locations": ["San Francisco Bay Area"],
+    "objectID": "21436"
+  }
+]
