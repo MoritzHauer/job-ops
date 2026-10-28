@@ -13,6 +13,7 @@ concurrency:
 
 jobs:
   version-docs:
+    if: github.repository == 'DaKheera47/job-ops'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
